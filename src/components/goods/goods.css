@@ -1,0 +1,120 @@
+.goods{
+    width: 100%;
+    position: absolute;
+    top: 356px;
+    bottom: 92px;
+    display: flex;
+    overflow: hidden;
+}
+.goods>.menu-wrapper{
+    flex: 0 0 160px;
+    width: 160px;
+}
+.menu-wrapper>.menu-ul{
+    background-color: #f3f5f7;
+}
+.current{
+    color: rgb(240, 20, 20);
+    background: #fff;
+    font-weight: 700;
+}
+.menu-item{
+    display: table;
+    height: 108px;
+    /* width: 112px; */
+    line-height: 28px;
+    padding: 0 24px;
+    border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+}
+.menu-item>.text{
+    display: table-cell;
+    width: 112px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+.menu-item>.text>.icon{
+    display: inline-block;
+    vertical-align: top;
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+}
+.menu-item>.text>.decrease{
+    background-image:url(./img/decrease_1@3x.png);
+}
+.menu-item>.text>.discount{
+    background-image:url(./img/discount_1@3x.png);
+}
+.menu-item>.text>.guarantee{
+    background-image:url(./img/guarantee_1@3x.png);
+}
+.menu-item>.text>.invoice{
+    background-image:url(./img/invoice_1@3x.png);
+}
+.menu-item>.text>.special{
+    background-image:url(./img/special_1@3x.png);
+}
+.goods>.foods-wrapper{
+    flex: 1;
+}
+.foods-wrapper>ul>.food-item>ul>.food-li{
+    border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+    margin: 36px 0 0 36px;
+    display: flex;
+    position: relative;
+}
+.foods-wrapper>ul>.food-item>.title{
+    height: 52px;
+    line-height: 52px;
+    font-size: 24px;
+    padding-left: 28px;
+    color: rgb(147, 153, 159);
+    background: #f3f5f7;
+    border-left: 4px solid #d9dde1;
+}
+.icon{
+    /* padding-bottom: 36px; */
+}
+.content{
+    margin-left: 20px;
+}
+.content>h2{
+    font-size: 28px;
+    color: rgb(7, 17, 27);
+    line-height: 28px;
+}
+.content>p{
+    font-size: 20px;
+    color: rgb(147, 153, 159);
+    line-height: 20px;
+    padding-top: 16px;
+}
+.content>.extra{
+    margin-top: 16px;
+    font-size: 20px;
+    color: rgb(147, 153, 159);
+    line-height: 20px;
+}
+.content>.price{
+    margin-top: 16px;
+    font-size: 28px;
+    color: red;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 36px;
+}
+.content>.price>.price-old{
+    font-size: 20px;
+    color: rgb(147, 153, 159);
+    font-weight: normal;
+    line-height: 48px;
+    text-decoration: line-through;
+}
+.content>.cartcontrol-wrapper{
+    position: absolute;
+    right: 0;
+    bottom: 24px;
+
+}
